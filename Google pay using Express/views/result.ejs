@@ -1,0 +1,13 @@
+<body>
+    <% if(result === 2) { %>
+        <h1>Transaction Successfull</h1>
+        <h3>Cash Back recieved: <%= data.cashback %></h3>
+        <h3>New available Balance: <%= data.availableAmount %></h3>
+        <a href="/home">Return Home</a>
+    <% } else if(result === 1) {%>
+        <h3>Reciever not found</h3>
+        <p><a href="/home">Return Home</a></p>
+    <% }else{ %>
+        <h3>Insufficient Balance</h3>
+    <% }%>
+</body>

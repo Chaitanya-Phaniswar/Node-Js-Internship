@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register <%= msg %></h1>
+    <form action="/register" method="POST">
+        <label for="phoneNum">Phone Number:</label>
+        <input type="text" id="phoneNum" name="phoneNum" required>
+        
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="initialAmount">Wallet Amount: </label>
+        <input type="number" id="initialAmount" name="Amount" required min="500">
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

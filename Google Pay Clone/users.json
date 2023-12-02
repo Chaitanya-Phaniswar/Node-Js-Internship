@@ -1,0 +1,44 @@
+{
+  "1234": {
+    "phoneNum": "1234",
+    "availableAmount": 1533,
+    "transactions": [
+      {
+        "from": "9492519312",
+        "to": "1234",
+        "amount": 200
+      },
+      {
+        "from": "9492519312",
+        "to": "1234",
+        "amount": 100
+      }
+    ]
+  },
+  "9876543210": {
+    "phoneNum": "9876543210",
+    "availableAmount": 500,
+    "transactions": []
+  },
+  "9492509324": {
+    "phoneNum": "9492509324",
+    "availableAmount": 10000,
+    "transactions": []
+  },
+  "9492519312": {
+    "phoneNum": "9492519312",
+    "availableAmount": 700,
+    "transactions": [
+      {
+        "from": "9492519312",
+        "to": "1234",
+        "amount": 200
+      },
+      {
+        "from": "9492519312",
+        "to": "1234",
+        "amount": 100
+      }
+    ]
+  }
+}
